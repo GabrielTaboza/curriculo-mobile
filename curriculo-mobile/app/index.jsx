@@ -3,6 +3,7 @@ import {
   Text,
   StyleSheet,
   TouchableOpacity,
+  Image,
 } from "react-native";
 
 import { router } from "expo-router";
@@ -10,14 +11,20 @@ import { router } from "expo-router";
 export default function Home() {
 
   return (
+
     <View style={styles.container}>
 
+      <Image
+        source={require("../assets/images/foto.png")}
+        style={styles.foto}
+      />
+
       <Text style={styles.nome}>
-        Gabriel Taboza
+        Gabriel Soares Taboza
       </Text>
 
       <Text style={styles.subtitulo}>
-        Desenvolvedor em formação
+        Desenvolvedor em Formação
       </Text>
 
       <TouchableOpacity
@@ -57,6 +64,7 @@ export default function Home() {
       </TouchableOpacity>
 
     </View>
+
   );
 }
 
@@ -65,21 +73,33 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     justifyContent: "center",
+    alignItems: "center",
     padding: 20,
     backgroundColor: "#0f172a",
+  },
+
+  foto: {
+    width: 140,
+    height: 140,
+    borderRadius: 70,
+    marginBottom: 25,
+    borderWidth: 4,
+    borderColor: "#38bdf8",
   },
 
   nome: {
     fontSize: 34,
     color: "#fff",
     fontWeight: "bold",
-    marginBottom: 10,
+    marginBottom: 8,
+    textAlign: "center",
   },
 
   subtitulo: {
     color: "#94a3b8",
     fontSize: 18,
     marginBottom: 40,
+    textAlign: "center",
   },
 
   botao: {
@@ -87,6 +107,7 @@ const styles = StyleSheet.create({
     padding: 16,
     borderRadius: 12,
     marginBottom: 15,
+    width: "100%",
   },
 
   botaoTexto: {

@@ -73,7 +73,7 @@ export default function Academica() {
         <Text style={styles.descricao}>
           Atualmente cursando o 4º período com foco em
           desenvolvimento mobile, front-end, back-end,
-          APIs REST, UX/UI e computação em nuvem.
+          APIs REST, IA e computação em nuvem.
         </Text>
 
         <Text style={styles.tecnologias}>

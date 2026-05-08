@@ -16,8 +16,8 @@ export default function Sobre() {
       </Text>
 
       <Text style={styles.texto}>
-        Sou estudante de Tecnologia da Informação e desenvolvedor Front-End,
-        com experiência em React Native, JavaScript, Node.js e APIs REST.
+        Meu nome é Gabriel Soares Taboza, tenho 29 anos. Atualmente sou estudante de Sistema para internet da UNICAP com conhecimento em Front-End,
+        com experiência acadêmica em React Native, Java, Python, Banco de dados, JavaScript, Node.js, APIs REST, entre outros.
       </Text>
 
       <Text style={styles.subtitulo}>
